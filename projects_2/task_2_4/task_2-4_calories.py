@@ -1,0 +1,5 @@
+protein = float(input('Введите количество белков: '))
+fats = float(input('Введите число жиров: '))
+carbs = float(input('Введите число углеводов '))
+kkal = (protein*4) + (fats*9) + (carbs*4)
+print(f'{kkal}')
